@@ -3,15 +3,25 @@ Sepordeh Payment Gateway for WooCommerce
 
 
 === Sepordeh Payment Gateway for WooCommerce ===
+
 Contributors: sepordeh
+
 Donate link: https://sepordeh.com/
+
 Tags: woocommerce,payment,sepordeh,payment gateway,سپرده,درگاه پرداخت ووکامرس,درگاه پرداخت سپرده
+
 Description: connect your woocommerce to biggest financial company in iran
+
 Requires at least: 4.7
+
 Tested up to: 5.8
+
 Stable tag: 5.8
+
 Requires PHP: 7.0
+
 License: GPLv2 or later
+
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 this plugin add Sepordeh payment method for WooCommerce
