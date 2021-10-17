@@ -1,6 +1,5 @@
 === Sepordeh Payment Gateway for WooCommerce ===
 Contributors: sepordeh
-Donate link: https://sepordeh.com/
 Tags: woocommerce,payment,sepordeh,payment gateway,سپرده,درگاه پرداخت ووکامرس,درگاه پرداخت سپرده
 Description: connect your woocommerce to biggest financial company in iran
 Requires at least: 4.7
