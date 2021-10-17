@@ -9,4 +9,8 @@ Author URI: http://www.Sepordeh.com/
 
 */
 
+function sepordeh_woocommerce_load_textdomain() {
+	load_plugin_textdomain( 'sepordeh-woocommerce', false, basename( dirname( __FILE__ ) ) . '/languages' );
+}
+add_action( 'init', 'sepordeh_woocommerce_load_textdomain' );
 include_once("class-gateway-sepordeh.php");
