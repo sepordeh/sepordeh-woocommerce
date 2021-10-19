@@ -3,7 +3,7 @@
 Plugin Name: Sepordeh Payment Gateway for WooCommerce
 Version: 1.2.0
 Description:  This plugin adds <a href="https://sepordeh.com">Sepordeh</a> payment method for WooCommerce
-Plugin URI: https://wordpress.org/plugins/edd-sepordeh
+Plugin URI: https://wordpress.org/plugins/sepordeh-woocommerce
 Author: Sepordeh.com
 Author URI: http://www.Sepordeh.com/
 */
