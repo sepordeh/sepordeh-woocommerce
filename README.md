@@ -14,7 +14,7 @@ Requires at least: 4.7
 
 Tested up to: 5.8
 
-Stable tag: 5.0.0
+Stable tag: 1.2.0
 
 Requires PHP: 7.0
 
