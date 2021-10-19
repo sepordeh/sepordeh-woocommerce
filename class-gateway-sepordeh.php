@@ -197,18 +197,6 @@ function Load_Sepordeh_Gateway()
                 $currency = $order->get_currency();
                 $currency = apply_filters('WC_SpDeh_Currency', $currency, $order_id);
 
-
-                $form = '<form action="" method="POST" class="sepordeh-checkout-form" id="sepordeh-checkout-form">
-						<input type="submit" name="sepordeh_submit" class="button alt" id="sepordeh-payment-button" value="' . __('پرداخت', 'woocommerce') . '"/>
-						<a class="button cancel" href="' . $woocommerce->cart->get_checkout_url() . '">' . __('بازگشت', 'woocommerce') . '</a>
-					 </form><br/>';
-                $form = apply_filters('WC_SpDeh_Form', $form, $order_id, $woocommerce);
-
-                do_action('WC_SpDeh_Gateway_Before_Form', $order_id, $woocommerce);
-                echo $form;
-                do_action('WC_SpDeh_Gateway_After_Form', $order_id, $woocommerce);
-
-
                 $Amount = (int)$order->order_total;
                 $Amount = apply_filters('woocommerce_order_amount_total_IRANIAN_gateways_before_check_currency', $Amount, $currency);
                 $strToLowerCurrency = strtolower($currency);
@@ -293,9 +281,7 @@ function Load_Sepordeh_Gateway()
                 }
 
 				$result = json_decode($response["body"]);
-                if ($result === false) {
-                    echo 'cURL Error #:' . $err;
-                } else if ($result->status === 200) {
+                if ($result->status === 200) {
 					if($this->settings['automaticGateway']=="yes")
 						wp_redirect("https://sepordeh.com/merchant/invoices/pay/automatic:true/id:".$result->information->invoice_id);
 					else
