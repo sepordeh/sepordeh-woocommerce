@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Sepordeh payment gateway for Woocommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Sepordeh payment gateway for Woocommerce 5.0.0\n"
+"Project-Id-Version: Sepordeh payment gateway for Woocommerce 1.2.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sepordeh-woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
