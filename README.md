@@ -50,9 +50,6 @@ yes , you can download it from github (https://github.com/sepordeh/sepordeh-wooc
 
 == Changelog ==
 
-= 4.6.1 =
-* first edition of plugin.
-
-= 5.0.0 =
+= 1.2.0 =
 * upgraded to wp-http-api
 * fix some bugs on pay
