@@ -53,3 +53,6 @@ yes , you can download it from github (https://github.com/sepordeh/sepordeh-wooc
 = 1.2.0 =
 * upgraded to wp-http-api
 * fix some bugs on pay
+
+= 1.3.0 =
+* optimized
