@@ -1,6 +1,3 @@
-# sepordeh-woocommerce
-Sepordeh Payment Gateway for WooCommerce
-
 === Sepordeh Payment Gateway for WooCommerce ===
 
 Contributors: sepordeh
@@ -15,19 +12,21 @@ Tested up to: 5.8
 
 Stable tag: 1.4.0
 
-Requires PHP: 7.0
+Requires PHP: 5.0
 
 License: GPLv2 or later
 
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-this plugin add Sepordeh payment method for WooCommerce
+this plugin adds [Sepordeh](https://sepordeh.com) payment method for WooCommerce
 
 == Description ==
 
+Sepordeh is Iranian payment company
+
 activation steps:
 
-1- get your business merchant code from https://sepordeh.com
+1- get your business merchant code from [Sepordeh](https://sepordeh.com)
 
 2- go to your wordpress dashboard
 
@@ -35,7 +34,7 @@ activation steps:
 
 4- install this plugin and activate it
 
-7- then Go to WooCommerce > Settings > Payments. enable Sepordeh payment gateway
+7- Go to WooCommerce > Settings > Payments then enable Sepordeh payment gateway
 
 8- go to manage then put your merchant code
 
@@ -45,7 +44,7 @@ activation steps:
 
 = this is an official plugin? =
 
-yes , you can download it from github (https://github.com/sepordeh/sepordeh-woocommerce)
+yes , you can download it from [GITHUB](https://github.com/sepordeh/sepordeh-woocommerce)
 
 == Changelog ==
 
