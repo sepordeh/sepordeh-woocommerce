@@ -1,13 +1,14 @@
-=== Sepordeh Payment Gateway for WooCommerce ===
+﻿=== Sepordeh Payment Gateway for WooCommerce ===
 Contributors: sepordeh
-Tags: woocommerce,payment,sepordeh,payment gateway,سپرده,درگاه پرداخت ووکامرس,درگاه پرداخت سپرده
-Description: connect your woocommerce to biggest financial company in iran
-Requires at least: 4.7
-Tested up to: 5.8
-Stable tag: 1.4.0
-Requires PHP: 5.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Tags: woocommerce, payment, gateway, sepordeh, payment gateway, سپرده, درگاه پرداخت ووکامرس
+Requires at least: 4.5
+Tested up to: 6.8.2
+Stable tag: 2.0
+Version: 2.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Donate link: https://sepordeh.com
+Description: Connect your WooCommerce store to Sepordeh, a leading Iranian payment gateway.
 
 this plugin adds [Sepordeh](https://sepordeh.com) payment method for WooCommerce
 
@@ -25,11 +26,11 @@ activation steps:
 
 4- install this plugin and activate it
 
-7- Go to WooCommerce > Settings > Payments then enable Sepordeh payment gateway
+5- Go to WooCommerce > Settings > Payments then enable Sepordeh payment gateway
 
-8- go to manage then put your merchant code
+6- go to manage then put your merchant code
 
-9- enjoy it :)
+7- enjoy it :)
 
 == Frequently Asked Questions ==
 
@@ -39,9 +40,14 @@ yes , you can download it from [GITHUB](https://github.com/sepordeh/sepordeh-woo
 
 == Changelog ==
 
-= 1.2.0 =
-* upgraded to wp-http-api
-* fix some bugs on pay
+= 2.0.0 =
+* Blocks compatibility
+* Support for latest WooCommerce versions
 
 = 1.4.0 =
-* optimized
+* Optimized performance
+
+= 1.2.0 =
+* Upgraded to WP HTTP API
+* Fixed some payment bugs
+
